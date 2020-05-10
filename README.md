@@ -21,9 +21,9 @@
 ## Important Notes
 For the *GLAD* dependency, the Assignment_1's CMakeLists assumes that this repository is build "in source"
 i.e ran the following commands: 
-    cd 3rdPartyLibs/glad
-    cmake .
-    make
+* cd 3rdPartyLibs/glad
+* cmake .
+* make
 
 ## Possible Improvements
 
@@ -31,3 +31,5 @@ i.e ran the following commands:
 First you'll need build *GLAD* as pointed out in the *Important Notes* section. 
 After that, assuming you have the other dependencies installed, you'll just need to run
 * python3 build.py
+* cd .build/Assignment_1/App
+* ./myapp
