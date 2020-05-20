@@ -52,7 +52,7 @@ i.e ran the following commands:
 * Support a wider range of character codes (currently supports ASCII only)
   * https://github.com/Dholguin-Programmer/Assignment_1/blob/master/Devices/Window/DiegofiedWindow/SubComponents/DiegofiedRenderer/src/DiegofiedRenderer.cpp#L326-L334
 
-## Bugs
+## Possible Issues? 
 * Make objects, no matter the number, fully rendered within the users screen 
 * Resolve any warnings
 
