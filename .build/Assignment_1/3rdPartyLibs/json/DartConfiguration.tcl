@@ -11,7 +11,7 @@ BuildDirectory: /home/daholgui/work/Assignment_1/.build/Assignment_1/3rdPartyLib
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: Diego-Ubuntu-PC
+Site: daholgui-Ubuntu
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Linux-c++
@@ -26,8 +26,8 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/daholgui/work/Assignment_1/3rdPartyLibs/json"
-MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
+ConfigureCommand: "/usr/local/bin/cmake" "/home/daholgui/work/Assignment_1/3rdPartyLibs/json"
+MakeCommand: /usr/local/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -69,6 +69,8 @@ CompilerVersion: 9.3.0
 PurifyCommand: 
 ValgrindCommand: 
 ValgrindCommandOptions: 
+DrMemoryCommand: 
+DrMemoryCommandOptions: 
 MemoryCheckType: 
 MemoryCheckSanitizerOptions: 
 MemoryCheckCommand: MEMORYCHECK_COMMAND-NOTFOUND
